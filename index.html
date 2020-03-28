@@ -2,10 +2,124 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Index Page</title>
+    <meta name="viewport " content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="variable.css" />
+    <title>Index Page1</title>
+    <style>
+      @media (max-width: 500px){
+        body{
+          background-color: #f7edb5;
+        }
+      }
+      @media (min-width: 499px){
+        body{
+          background-color: #c9f7ff;
+        }
+      }
+    input[type=text]{
+        background-color:red;
+    }
+    input[type=number]{
+      background-color: green;
+    }
+    button{
+      background-color:red;
+      color:green;
+    }
+    button:hover{
+      background-color:green;
+      color:red;
+    }
+    a::before{
+      content: "\21d2 Click here: ";
+      font-weight:bold;
+    }
+    .container {
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .container > div{
+      background-color: #dedede;
+      margin: 20px;
+      padding: 20px;
+      width: 200px
+    }
+    .grid{
+      display: grid;
+      padding: 10px;
+      grid-column-gap: 10px;
+      grid-row-gap: 5px;
+      grid-template-columns: 200px 200px auto;
+    }
+    .grid > div{
+      font-size: 20px;
+      background-color: white;
+
+    }
+   </style>
   </head>
   <body>
+    <div>
+      <div class="success"> Success Message </div>
+      <div class="danger">danger message </div>
+    </div>
       <p> this is the first page with paragraph </p>
       <p> frature 1s</p>
+      <ul>
+          <li><a href="#section1">Section1</a></li>
+          <li><a href="#section2">Section2</a></li>
+          <li><a href="#section3">Section3</a></li>
+      </ul>
+      <ul>
+          <li>Section1</li>
+          <li>Section2</li>
+          <li>Section3</li>
+      </ul>
+      <ol>
+          <li>Section1</li>
+          <li>Section2</li>
+          <li>Section3</li>
+      </ol>
+
+      <h2 id="section1">Section 1</h2>
+        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+      <h2 id="section2">Section 2</h2>
+        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+      <h2 id="section3">Section 3</h2>
+        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      <form class="" action="index.html" method="post">
+          <input type="text" name="first" value="" placeholder="First Name">
+          <input type="text" name="last" value="" placeholder="Last Name">
+          <input type="number" name="age" value="" placeholder="Age">
+          <button type="button" name="submit">Submit</button>
+      </form>
+      <div class="container">
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+        <div> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+      </div>
+      <div class="grid">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        </div>
   </body>
 </html>

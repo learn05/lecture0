@@ -1,0 +1,23 @@
+ul {
+  color: green;
+  font-size: 20px; }
+
+ol {
+  color: green;
+  font-size: 20px; }
+
+.success, .danger {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.danger {
+  background-color: red; }
+
+/*# sourceMappingURL=variable.css.map */
